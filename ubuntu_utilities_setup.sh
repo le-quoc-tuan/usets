@@ -13,4 +13,5 @@ sudo apt-get install sni-qt sni-qt:i386
 #==============================================
 # Dconf-tools
 #==============================================
-udo apt-get install dconf-tools
+sudo apt-get install gconf2
+sudo apt-get install dconf-tools
