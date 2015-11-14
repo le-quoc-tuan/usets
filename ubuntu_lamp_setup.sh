@@ -8,25 +8,24 @@ sudo apt-get upgrade
 #==============================================
 # Install apache2
 #==============================================
-sudo apt-get install apache2
+sudo apt-get install -y apache2
 
 
 #==============================================
 # Install mysql
 #==============================================
-sudo apt-get install mysql-server mysql-client libapache2-mod-auth-mysql php5-mysql
+sudo apt-get install -y mysql-server mysql-client libapache2-mod-auth-mysql php5-mysql
 
 # Setup security
 sudo /usr/bin/mysql_secure_installation
 
-
 #==============================================
 # Install PHP
 #==============================================
-sudo apt-get install php5 libapache2-mod-php5 php5-curl php-pear php5-mcrypt
+sudo apt-get install -y php5 libapache2-mod-php5 php5-curl php-pear php5-mcrypt
 
 # More php modules
-sudo apt-get install php5-gd php5-imagick php5-memcache php5-sqlite
+sudo apt-get install -y php5-gd php5-imagick php5-memcache php5-sqlite
 
 
 # Search and install php modules
@@ -45,7 +44,7 @@ sudo service apache2 restart
 # Change user permissions
 #==============================================
 # sudo chown -R tuanlq /var/www/html/
-# sudo chmod -R 755 /var/www/html/
+sudo chmod -R 777 /var/www/html/
 
 
 #==============================================
