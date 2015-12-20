@@ -2,7 +2,7 @@
 # Install core for developer, I swear
 #==============================================
 
-sudo apt-get install curl git-core vim
+sudo apt-get install -y curl git-core vim
 
 
 #==============================================
@@ -16,7 +16,7 @@ sudo vim /etc/default/apport
 # Install rar, vlc
 #==============================================
 
-sudo apt-get install rar vlc
+sudo apt-get install -y rar vlc tree
 
 
 #==============================================
@@ -30,4 +30,4 @@ sudo dpkg --add-architecture i386 && sudo apt-get update
 # Install extras
 #==============================================
 
-sudo apt-get install ubuntu-restricted-extras
+sudo apt-get install -y ubuntu-restricted-extras
