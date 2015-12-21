@@ -27,6 +27,11 @@ sudo apt-get install -y php5 libapache2-mod-php5 php5-curl php-pear php5-mcrypt
 # More php modules
 sudo apt-get install -y php5-gd php5-imagick php5-memcache php5-sqlite
 
+#==============================================
+# PHP_CodeSniffer
+#==============================================
+sudo pear install PHP_CodeSniffer
+
 
 # Search and install php modules
 # apt-cache search php5-
